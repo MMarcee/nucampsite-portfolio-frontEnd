@@ -1,0 +1,20 @@
+.jumbotron-fluid {
+  background-size: 100%;
+  min-height: 500px;
+}
+.navbarstrip {
+  position: sticky;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: gray !important;
+}
+.active-link {
+  color: white !important;
+}
+.nav-brand-style {
+  color: white !important;
+}

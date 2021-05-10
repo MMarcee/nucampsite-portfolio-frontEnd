@@ -1,0 +1,40 @@
+.blockquote {
+  max-width: 450px;
+  margin: 60px 100px;
+  padding: 10px;
+  color: #0f9e7aee;
+  border: 1px solid #b0d2cb;
+}
+.blockquote-border {
+  border-left-width: 10px;
+}
+.blockquote-text {
+  font-family: 'Gelasio', serif;
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin: 0;
+  color: #0b4237;
+}
+.blockquote-text-author {
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  margin-top: -20px;
+}
+.blockquote-text:not(:last-child) {
+  margin-bottom: 1em;
+}
+.blockquote-text-author::before {
+  content: '\2014\0020';
+}
+.blockquote-quoted::before {
+  content: '\201c';
+  font-family: 'Gelasio', serif;
+  font-size: 100px;
+  font-style: italic;
+  color: #b0d2cb;
+  display: block;
+  margin-bottom: -60px;
+  margin-top: -20px;
+}
