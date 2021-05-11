@@ -28,7 +28,7 @@ function ProfileCardInfo(props) {
                                         </div>
                                 </Media>
                                 <div className="card-footer"style={{ backgroundColor: "gray" }} >
-                                     <a href="https://www.github.com/"><FaGithub  /></a>
+                                     <a href="https://github.com/MMarcee/nucamp-portfolio-backEnd"><FaGithub  /></a>
                                     {' '}
                                     <a href="https://www.linkedin.com/"><FaLinkedin /></a>
                                 </div>

@@ -95,14 +95,13 @@ code {
 .accord-bg {
   padding: 10px 20px 10px 20px;
 }
-.overflow {
-  background-color: honeydew;
-}
-.cards {
+.card-body {
   background-color: #b0d2cb;
-  width: 800px !important;
-  height: 800px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
-.videoFE {
-  margin-bottom: 20px;
+.inspiration {
+  color: whitesmoke !important;
 }

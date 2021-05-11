@@ -68,7 +68,7 @@ function HomePage(props) {
                             <Accordion>
                                 <Accordion.Toggle  id="ct" as={Button} style={{ color: 'black' }} variant="link" eventKey="3">Contact Me</Accordion.Toggle>
                                     <Accordion.Collapse eventKey="3">
-                                    <div class="card-body">
+                                    <div class="">
                                         <ContactMe />
                                     </div>
                                 </Accordion.Collapse>    
